@@ -1,0 +1,136 @@
+/*
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html ,body{
+    height: 100%;
+}
+body{
+    background: #f6f6f6;
+    margin: 0;
+    font-family: 'open sans',sans-serif;
+ 
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+.home {
+    background: url(../images/water.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.home .content-wrapper{
+    
+    flex: 1 0 auto;
+
+}
+.content-bg{
+    background:rgba(233, 234, 234, 0.596);
+    padding: 20px;
+}
+/*index*/
+span {
+    
+    text-transform: uppercase;
+    font-style: italic;
+}
+/*resume*/
+.resume header::before{
+    background: url(../images/water.jpg) bottom;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 400px;
+
+ }
+.resume-section{
+    margin-bottom: 50px;
+ }
+.resume-section h2{
+    border-bottom: 2px dashed gray;
+ } 
+.download-link {
+  position: fixed;
+    top: 5px;
+    left: 5px;
+    background: rgb(8, 130, 2);
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 7;
+    
+    
+}
+@media screen and (max-width: 1200px){
+ .download-link{
+    position : absolute;
+ }   
+}
+/*projects*/
+.project-item{
+    
+    margin: 30px 0px;
+}
+.project-item img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+
+}
+/* work experience*/
+.work-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+}
+@media screen and (min-width:860px){
+    .project-item{
+        display: flow-root;  
+}
+@media  screen and (min-width:650px) and (max-width:859px) {
+    .project-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 20px;
+    }
+    
+}
+/*footer*/
+footer{
+    background: black;
+color: #d3d4d6;
+display: flex;
+
+justify-content: space-between;
+}
+/*.social {
+list-style-type:inline-block;
+padding: 0;
+}
+.social li {
+display: inline-block;
+margin-left: 10px;
+}
+.social img {
+    width: 55px;
+}
+.social img:hover {
+opacity: 0.5;
+}*/
