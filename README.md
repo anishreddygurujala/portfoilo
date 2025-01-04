@@ -1,5 +1,6 @@
 Anish Reddy Gurujala
 Full Stack Developer | Software Engineer
+
 Profile
 I am a Master's in Computer Science candidate at William Jessup University, with expertise in full-stack development, data analysis, and machine learning. I have hands-on experience building web applications using React, Node.js, and Django, as well as applying machine learning techniques to real-world data problems. My technical toolkit includes proficiency in Python, Java, SQL/NoSQL, and cloud services like AWS.
 
